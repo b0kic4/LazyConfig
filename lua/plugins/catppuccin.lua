@@ -1,3 +1,1 @@
-return { "catppuccin/nvim", name = "catppuccin", opts = {
-  transparent_background = true,
-} }
+return { "catppuccin/nvim", name = "catppuccin", priority = 1000 }
