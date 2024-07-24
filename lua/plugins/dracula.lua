@@ -50,6 +50,7 @@ return {
       -- vim.cmd([[colorscheme dracula-soft]])
       -- vim.cmd([[colorscheme catppuccin-frappe]])
       vim.cmd([[colorscheme catppuccin]])
+      -- vim.cmd([[colorscheme ares]])
     end,
   },
   {
