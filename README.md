@@ -2,6 +2,8 @@
 
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
-![Screenshot 2024-05-15 at 15 59 26](https://github.com/b0kic4/LazyConfig/assets/123242253/3b61d1bf-4b29-49cc-b5ae-63555ab08306)
-![Screenshot 2024-05-15 at 16 00 55](https://github.com/b0kic4/LazyConfig/assets/123242253/884e2b16-561c-44f3-8bef-565329fea922)
-![Screenshot 2024-05-15 at 16 01 21](https://github.com/b0kic4/LazyConfig/assets/123242253/b9463822-d1fe-4761-9b13-9ca6e3045518)
+<img width="1622" alt="image" src="https://github.com/user-attachments/assets/86b00a02-30bb-4ab0-981b-13ddb98f3a4a">
+<img width="1622" alt="image" src="https://github.com/user-attachments/assets/728cbaa5-5f01-4b3c-98e5-15546f9f09cb">
+<img width="1622" alt="image" src="https://github.com/user-attachments/assets/c69a192f-6c18-4a28-8c8d-b5d43c816168">
+<img width="1622" alt="image" src="https://github.com/user-attachments/assets/0777f2b6-b4ca-4256-a498-cfda9db4459a">
+<img width="1622" alt="image" src="https://github.com/user-attachments/assets/09dee4e6-7953-4c8e-b2b8-460d5b170822">
