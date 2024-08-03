@@ -5,10 +5,11 @@ require("telescope").setup({
       prompt_position = "top",
       horizontal = {
         preview_width = 0.65,
-        width = 0.9, -- Slightly larger width to utilize more screen space
+        width = 0.9,
         height = 0.8,
         mirror = false,
       },
     },
+    sorting_strategy = "ascending", -- Ensures results appear at the top
   },
 })
