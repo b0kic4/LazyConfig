@@ -10,6 +10,6 @@ require("telescope").setup({
         mirror = false,
       },
     },
-    sorting_strategy = "ascending", -- Ensures results appear at the top
+    sorting_strategy = "ascending",
   },
 })
