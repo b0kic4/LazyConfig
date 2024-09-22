@@ -51,6 +51,16 @@ return {
             sources = { "nvim_lsp" },
             symbols = { error = " ", warn = " ", info = " ", hint = " " }, -- LSP diagnostics icons
           },
+          {
+            function()
+              local recording_register = vim.fn.reg_recording()
+              if recording_register ~= "" then
+                return " REC @" .. recording_register -- Recording indicator with icon
+              end
+              return "" -- No recording
+            end,
+            color = { fg = "#FF0000", gui = "bold" }, -- Red color for recording indicator
+          },
         },
         lualine_x = {
           { "encoding", color = { fg = "#E5C07B", gui = "bold" } }, -- File encoding
@@ -73,7 +83,6 @@ return {
               return " " .. os.date("%Y-%m-%d") -- Current date with calendar icon
             end,
             color = { fg = "#98C379", gui = "bold" }, -- Customize colors as needed
-            icon = "", -- Calendar icon (for clarity)
           },
         },
         lualine_z = {
