@@ -6,6 +6,13 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 vim.api.nvim_set_keymap("n", "<leader>g", ":term lazygit<CR>", { noremap = true, silent = true })
+
+-- Go to definition in a vertical split
+vim.keymap.set("n", "gv", function()
+  vim.cmd("vsplit")
+  vim.lsp.buf.definition()
+end, { noremap = true, silent = true })
+
 vim.opt.timeoutlen = 1000
 vim.opt.ttimeoutlen = 0
 require("lazy").setup({
